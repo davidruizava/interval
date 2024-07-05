@@ -1,5 +1,4 @@
 import { Action, ctx, io } from "@interval/sdk";
-import { LoginRequest } from "./loginRequest";
 import { requestLogin, validateLogin } from './requestService';
 import { LoginResponse } from "./loginResponse";
 
