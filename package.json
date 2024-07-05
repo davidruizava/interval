@@ -1,0 +1,22 @@
+{
+  "name": "interval-refund-charges-typescript",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src --watch .env -e ts src/index.ts",
+    "build": "tsc",
+    "start": "node src/index.ts"
+  },
+  "dependencies": {
+    "@interval/fake-stripe": "^1.1.0",
+    "@interval/sdk": "^1.4.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "4.5.x"
+  }
+}
